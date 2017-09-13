@@ -1,3 +1,4 @@
+package artIDPNBTesting;
 
 
 import org.junit.Test;
