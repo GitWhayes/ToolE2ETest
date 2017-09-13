@@ -14,8 +14,10 @@ public class TestCaseSysOut {
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
-			driver.get("http://www.");
-		    driver.findElement(By.id("q")).clear();
+			driver.get("http://www.google.com");
+			driver.quit();
+
+		//    driver.findElement(By.id("q")).clear();
 
 	}
 
