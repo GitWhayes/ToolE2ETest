@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: artIDPNBTesting.TestUdemy
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.132 s - in artIDPNBTesting.TestUdemy
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.985 s - in artIDPNBTesting.TestUdemy
