@@ -10,7 +10,7 @@ public class TestJiraWHayes {
 	@Test
 	public void TCWhayes()
 	{
-		System.out.println("TestCase for Google Search");
+		System.out.println("TestCase for Google Search for Zephyr for JIRA");
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");

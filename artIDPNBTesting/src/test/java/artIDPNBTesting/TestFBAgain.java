@@ -13,6 +13,7 @@ public class TestFBAgain {
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com");
+		System.out.println("Title of web page is: " + driver.getTitle());
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();

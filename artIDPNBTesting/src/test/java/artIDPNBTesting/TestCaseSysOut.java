@@ -10,14 +10,14 @@ public class TestCaseSysOut {
 	public void testSysoutTestCase()
 	{
 		
-		System.out.println("TestCase for just Search");
+		System.out.println("Failure test case");
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		
-			driver.get("http://www.google.com");
+			//invalid url
+			driver.get("htwww");
 			driver.quit();
 
-		//    driver.findElement(By.id("q")).clear();
+
 
 	}
 
