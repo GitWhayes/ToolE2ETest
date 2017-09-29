@@ -13,8 +13,9 @@ public class TestCaseSysOut {
 		System.out.println("Failure test case");
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-			//invalid url
-			driver.get("httwww");
+			//invalid url force failure
+			//driver.get("httwww");
+			driver.get("http://www.cnn.com/");
 			driver.quit();
 
 
