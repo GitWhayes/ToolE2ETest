@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: artIDPNBTesting.TestCaseSysOut
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.035 s <<< FAILURE! - in artIDPNBTesting.TestCaseSysOut
-testSysoutTestCase(artIDPNBTesting.TestCaseSysOut)  Time elapsed: 3.002 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.298 s <<< FAILURE! - in artIDPNBTesting.TestCaseSysOut
+testSysoutTestCase(artIDPNBTesting.TestCaseSysOut)  Time elapsed: 3.255 s  <<< ERROR!
 org.openqa.selenium.WebDriverException: 
 unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1 milliseconds
+Command duration or timeout: 49 milliseconds
 Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
 System info: host: 'USLBXS0062', ip: '192.168.1.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\WINDOWS\TEMP\scoped_dir5180_20294}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: b2352362ba5aa5d58f8739c2c0df0922
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\graywa01\AppData\Local\Temp\scoped_dir14304_2337}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 19f4edff1ccadf24bded683aa1507b94
 	at artIDPNBTesting.TestCaseSysOut.testSysoutTestCase(TestCaseSysOut.java:17)
 
