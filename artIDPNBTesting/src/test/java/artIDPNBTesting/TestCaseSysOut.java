@@ -10,13 +10,16 @@ public class TestCaseSysOut {
 	public void testSysoutTestCase()
 	{
 		
-		System.out.println("Failure test case");
+		//System.out.println("Failure test case");
 		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-			//invalid url
+			/*invalid url
 			driver.get("httwww");
 			driver.quit();
-
+			 */
+		driver.get("http://www.google.com");
+		driver.findElementByName("q").sendKeys("cookies");
+		driver.quit();
 
 
 	}
