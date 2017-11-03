@@ -11,7 +11,7 @@ public class TestUdemy {
 	{
 		
 		System.out.println("TestCase for Udemy Search");
-		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
 			driver.get("http://www.udemy.com");

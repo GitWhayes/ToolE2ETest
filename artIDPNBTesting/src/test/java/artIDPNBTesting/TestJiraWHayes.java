@@ -11,7 +11,7 @@ public class TestJiraWHayes {
 	public void TCWhayes()
 	{
 		System.out.println("TestCase for Google Search for Zephyr for JIRA");
-		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		driver.findElementByName("q").sendKeys("Zephyr for Jira");

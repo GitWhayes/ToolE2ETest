@@ -11,7 +11,8 @@ public class TestCaseSysOut {
 	{
 		
 	//	System.out.println("no longer failing test case");
-		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
+	//	System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 			/*invalid url
 			driver.get("httwww");

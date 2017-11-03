@@ -10,7 +10,7 @@ public class TestFBAgain {
 	public void testCaseFB()
 	{
 		System.out.println("TestCase for Facebook");
-		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com");
 		System.out.println("Title of web page is: " + driver.getTitle());

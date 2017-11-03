@@ -9,7 +9,7 @@ public class TestGoogleSearching {
 	public void testCaseGoogle()
 	{
 		System.out.println("TestCase for Google Search");
-		System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		driver.findElementByName("q").sendKeys("cheesecake");
