@@ -7,10 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestLocationsWorkbrowser {
 
 	@Test 
-	public void testUdemyTestCase()
+	public void locationsWBTestCase()
 	{
 		
-		System.out.println("TestCase for Udemy Search modifying it");
+		System.out.println("TestCase for Locations WorkBrowser");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
