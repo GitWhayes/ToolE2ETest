@@ -17,7 +17,7 @@ public class TestLocationsWorkbrowser {
 			driver.get("http://www.udemy.com");
 			//driver.get("http://www.");
 			driver.findElement(By.id("q")).clear();
-		    driver.findElement(By.id("q")).sendKeys("accounting");
+		    driver.findElement(By.id("q")).sendKeys("accounting class");
 		    driver.findElement(By.xpath("//button[@type='submit']")).click();
 		    driver.quit();
 		}
