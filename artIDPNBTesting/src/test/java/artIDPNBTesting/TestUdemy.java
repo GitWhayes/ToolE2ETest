@@ -10,7 +10,7 @@ public class TestUdemy {
 	public void testUdemyTestCase()
 	{
 		
-		System.out.println("TestCase Mock Locations Workbrowser test");
+		System.out.println("\nTestCase Udemy Browser.");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		

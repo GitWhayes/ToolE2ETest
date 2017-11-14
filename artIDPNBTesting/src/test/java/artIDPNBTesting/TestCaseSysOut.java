@@ -10,14 +10,10 @@ public class TestCaseSysOut {
 	public void testSysoutTestCase()
 	{
 		
-	//	System.out.println("no longer failing test case");
+		System.out.println("Test Google URL HRB");
 	//	System.setProperty("webdriver.chrome.driver", "c:\\users\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-			/*invalid url
-			driver.get("httwww");
-			driver.quit();
-			 */
 		driver.get("http://www.google.com");
 		driver.findElementByName("q").sendKeys("hrblock");
 		driver.quit();
