@@ -10,12 +10,11 @@ public class TestLocationsWorkbrowser {
 	public void locationsWBTestCase()
 	{
 		
-		System.out.println("TestCase for Locations WorkBrowser");
+		System.out.println("\n\n***TestCase for Locations WorkBrowser");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
 			driver.get("http://www.udemy.com");
-			//driver.get("http://www.");
 			driver.findElement(By.id("q")).clear();
 		    driver.findElement(By.id("q")).sendKeys("accounting class");
 		    driver.findElement(By.xpath("//button[@type='submit']")).click();
